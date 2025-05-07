@@ -1,5 +1,5 @@
 import express from 'express';
-import routes from '@api/routes';
+import routes from './src/api/routes';
 const app = express();
 app.use(routes);
 app.get('/', (req, res, next) => {
