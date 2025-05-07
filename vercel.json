@@ -5,7 +5,7 @@
   "outputDirectory": "dist",
   "builds": [
     {
-      "src": "./dist/app.js",
+      "src": "dist/app.js",
       "use": "@vercel/node",
       "config": {
         "includeFiles": [
@@ -17,7 +17,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "./dist/app.js"
+      "destination": "dist/app.js"
     }
   ]
 }
