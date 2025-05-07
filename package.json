@@ -2,9 +2,8 @@
   "name": "vercel-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/app.js",
+  "main": "app.js",
   "scripts": {
-    "build": "tsc",
     "start": "node ."
   },
   "keywords": [],
