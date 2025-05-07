@@ -1,9 +1,9 @@
 import express, {Request, Response, NextFunction} from 'express';
-// import routes from './src/api/routes';
+import routes from './src/api/routes';
 
 const app = express();
 
-// app.use(routes);
+app.use(routes);
 
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
   res.status(200).send('Seems Good');
