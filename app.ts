@@ -15,7 +15,7 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
 });
 
 app.get('/secret', (req: Request, res: Response, next: NextFunction) => {
-  res.status(200).send('I\'m Home!');
+  res.status(200).send('You found me. congratulations!');
 });
 
 const server = http.createServer(app);

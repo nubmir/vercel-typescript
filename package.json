@@ -2,9 +2,10 @@
   "name": "vercel-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "cors": "^2.8.5",
     "express": "^5.1.0"
   },
+  "type": "module",
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
