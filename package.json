@@ -17,9 +17,10 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "@types/express": "^5.0.1",
     "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
     "@types/node": "^22.15.14",
+    "tsup": "^8.4.0",
     "typescript": "^5.8.3"
   }
 }
