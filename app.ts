@@ -9,3 +9,5 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
 app.listen(3001, () => {
   console.log('server up!');
 });
+
+export default app;
